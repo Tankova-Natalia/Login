@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500&display=swap');
+body{
+    background-color: #dbdbdb;
+    font-family: 'Raleway', sans-serif;
+  color: #525252;
+}
+.container {
+    background-color: white;
+   margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    width: 20em;
+    height: 20em;
+  padding: 4em;
+  border-radius: 2%;
+}
+.block{
+    margin-bottom: 1em;
+}
+h1, #password_label, #username_label{
+    text-transform: uppercase;
+}
+
+h1{
+    font-weight: 500;
+    margin: 0px;
+}
+#password_label, #username_label{
+    font-weight: 600;
+    font-size: 12px;
+    
+}
+ .text_field{
+width: 98%;
+height: 3em;
+border-color: #dbdbdb;
+border-style: solid;
+border-width: thin;
+    margin-top: 0.5em;
+}
+#button{
+    background-color: #525252;
+    color: white;
+    width: 10em;
+    height: 4em;
+    font-weight: 600;
+    border-radius:30px;
+    margin-top: 1em;
+}
+#fogot{
+    float: right;
+    text-decoration: none;
+    color: #525252;
+    font-weight: 300;
+}
+#remember{
+    
+    color: lightgray;
+}
+.password{
+    position: relative;
+}
+.password-control {
+	position: absolute;
+	top: 50%;
+	right: 5%;
+       
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-image: url("view.png");
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+	}
